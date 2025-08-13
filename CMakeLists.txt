@@ -44,3 +44,27 @@ target_link_libraries(
 
     ${CMAKE_SOURCE_DIR}/../libev/build/lib/libev.a
 )
+
+add_executable(
+    udp_client_sr
+    
+    ${CMAKE_SOURCE_DIR}/udp_client_sr.cpp
+)
+
+target_link_libraries(
+    udp_client_sr
+
+    ${CMAKE_SOURCE_DIR}/../libev/build/lib/libev.a
+)
+
+add_executable(
+    udp_server_sr
+    
+    ${CMAKE_SOURCE_DIR}/udp_server_sr.cpp
+)
+
+target_link_libraries(
+    udp_server_sr
+
+    ${CMAKE_SOURCE_DIR}/../libev/build/lib/libev.a
+)

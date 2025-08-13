@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -Wpedantic -g -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/udp_server_sr.dir/udp_server_sr.cpp.o -o udp_server_sr  /Users/liuqi/Documents/reliableUDP/../libev/build/lib/libev.a
