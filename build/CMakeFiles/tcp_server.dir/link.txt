@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -Wpedantic -g -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/tcp_server.dir/tcp_echo_server.cpp.o -o tcp_server  /Users/liuqi/Documents/reliableUDP/../libev/build/lib/libev.a
